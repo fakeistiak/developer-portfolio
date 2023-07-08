@@ -19,19 +19,19 @@ body {
    .text-primary{
     color: #FD6E0A;
    }
-   .section-titile{
+   .section-titile {
     color: #181818;
     text-align:center;
     font-size: 35px;
-    font-weight: 700px;
+    font-weight: 700px;    
     
    }
-   .section-desc[
+   .section-desc{
    color: var(--dark-03, #757575);
    text-align: center;
    font-family: Open Sans;
    font-size: 18px;
-   ]
+}
 /* nav relates style */
 nav{
     display: flex;
@@ -105,4 +105,15 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+}
+main{
+    max-width: 1140;
+    margin:o auto ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
